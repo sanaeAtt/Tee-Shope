@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unnecessary_import
 
 import 'package:e_commerce_app/features/authentification/controllers.onBoard/onboardingController.dart';
 import 'package:e_commerce_app/features/authentification/screens/onBoarding/widgets/onBoardSkip.dart';

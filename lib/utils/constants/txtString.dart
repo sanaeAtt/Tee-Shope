@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, constant_identifier_names
+
 class TxtString {
   static const String onBoardingTitle1 = "Choose your product";
   static const String onBoardingTitle2 = "Seect Payment Methode";
@@ -14,6 +16,7 @@ class TxtString {
   static const String homeAppbarSubTitlle = "Sanae AATIK";
 
   static const String submit = "submit";
+  static const String done = "done";
   static const String appName = "Tee-Shop";
   static const String tContinue = "Continue";
 
@@ -29,9 +32,11 @@ class TxtString {
   static const String remember = "Remember me";
   static const String forgetPassword = "Forget Password?";
   static const String signIn = "Sign in";
+  static const String signUp = "Sign Ups";
   static const String createAccount = "Create Acount";
   static const String orSignUpWith = "or sign Up with";
   static const String iAgreeTo = "I agree to";
+  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String terms = "Terms of use";
   static const String verificationCode = "Verification Code";

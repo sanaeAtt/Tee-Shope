@@ -1,6 +1,6 @@
 import 'package:e_commerce_app/common/styles/spacingStyles.dart';
-import 'package:e_commerce_app/features/authentification/screens/loggin/widgets/LoginDevider.dart';
-import 'package:e_commerce_app/features/authentification/screens/loggin/widgets/LoginFooter.dart';
+import 'package:e_commerce_app/common/widgets/login_signUp/LoginDevider.dart';
+import 'package:e_commerce_app/common/widgets/login_signUp/LoginFooter.dart';
 import 'package:e_commerce_app/features/authentification/screens/loggin/widgets/LoginHeader.dart';
 import 'package:e_commerce_app/features/authentification/screens/loggin/widgets/loginForm.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
@@ -18,13 +18,13 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: TSpacingStyle.paddingWithAppBarWeight,
+          padding: TSpacingStyle.paddingWithAppBarHeight,
           child: Column(
             children: [
               //header
               LogiHeader(dark: dark),
               //form
-              LoginForm(),
+              const LoginForm(),
 
               //Devider
               LoginDevider(
@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
                 height: TSizes.spaceBtwSection,
               ),
               //fotterrr
-              LoginFooter()
+              const LoginFooter()
             ],
           ),
         ),
